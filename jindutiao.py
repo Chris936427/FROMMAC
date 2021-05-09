@@ -6,6 +6,6 @@ for i in range(scale+1):
     a,b='**'*i,'..'*(scale-i)
     c=(i/scale)*100
     print("\r%{:^3.0f}[{}->{}]".format(c,a,b),end='')
-    time.sleep(1)
+    time.sleep(2)
 print()
 print("{0:$^20}".format('执行结束'))
